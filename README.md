@@ -9,12 +9,12 @@ First, we have to download WSL on your Windows system:
 
 ## Step 1: Install WSL
 1. Open PowerShell as Administrator and run:
-   ```powershell
+   ```sh
    wsl --install
    ```
 2. Restart your computer if prompted.
    After rebooting, open PowerShell as Administrator again, and run following command to download Ubuntu.
-   ```
+   ```sh
    wsl --install -d Ubuntu
    ```
 5. Do a checking of the system:
@@ -23,7 +23,7 @@ First, we have to download WSL on your Windows system:
    wsl --list
    ```
 7. Activate Ubuntu environment
-   ```
+   ```sh
    wsl -d Ubuntu
    ```
 
